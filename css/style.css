@@ -47,3 +47,36 @@ footer {
     padding: 10px;
     background-color: #ddd;
 }
+
+/* Sezione servizi */
+#servizi {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#servizi h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.servizi-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servizio {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 250px;
+}
+
+.servizio img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
